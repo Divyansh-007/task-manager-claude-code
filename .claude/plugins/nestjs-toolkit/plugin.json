@@ -2,11 +2,11 @@
   "name": "nestjs-toolkit",
   "version": "1.0.0",
   "description": "NestJS + MongoDB development toolkit: module generator, API tester, security reviewer, and auto-lint hook",
-  "author": "your-github-username",
+  "author": "Divyansh-007",
   "license": "MIT",
   "keywords": ["nestjs", "mongodb", "mongoose", "backend", "api"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/nestjs-toolkit-plugin"
+    "url": "https://github.com/Divyansh-007/claude-plugins"
   }
 }
