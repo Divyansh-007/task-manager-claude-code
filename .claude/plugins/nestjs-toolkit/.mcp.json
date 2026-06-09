@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "mongodb-plugin": {
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server", "--connectionString", "${MONGODB_URI:-mongodb://localhost:27017/task-manager}"],
+      "env": {}
+    }
+  }
+}

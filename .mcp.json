@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "mongodb": {
+      "command": "npx",
+      "args": ["-y", "mongodb-mcp-server", "--connectionString", "mongodb://localhost:27017/task-manager"],
+      "env": {},
+      "_comment": "Lets Claude query your MongoDB directly — browse collections, run queries, check indexes"
+    },
+
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "_comment": "Lets Claude create PRs, read issues, browse repos — use: claude mcp add --env GITHUB_TOKEN=ghp_xxx github"
+    },
+
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/mcp-server-filesystem", "--root", "."],
+      "env": {},
+      "_comment": "Enhanced file operations — search, watch, batch edits across the project"
+    }
+  }
+}
