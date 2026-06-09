@@ -45,6 +45,9 @@ architecture unless they have security implications.
 - Debug/verbose logging in production mode
 - .env file in version control
 
+### API Endpoints
+- Rate limiting on all POST endpoints
+
 ### Dependencies
 - Known vulnerabilities (suggest running npm audit)
 - Outdated packages with security patches available
