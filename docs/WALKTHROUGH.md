@@ -316,26 +316,26 @@ claude mcp add --env GITHUB_TOKEN=ghp_xxx github -- \
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    YOUR SESSION                          │
+│                    YOUR SESSION                         │
 │                                                         │
-│  CLAUDE.md loads → Claude knows your project             │
-│  .claude/rules/ activate → per-file conventions          │
+│  CLAUDE.md loads → Claude knows your project            │
+│  .claude/rules/ activate → per-file conventions         │
 │                                                         │
-│  You type /generate-module users                         │
+│  You type /generate-module users                        │
 │  → SKILL loads on demand                                │
-│  → Skill creates 7 files following your conventions      │
-│  → Hook fires: tsc --noEmit (auto type-check)            │
+│  → Skill creates 7 files following your conventions     │
+│  → Hook fires: tsc --noEmit (auto type-check)           │
 │                                                         │
-│  You type "review for security"                          │
-│  → Claude delegates to security-reviewer AGENT           │
-│  → Agent works in its own context (Sonnet, read-only)    │
-│  → Returns severity report to your main chat             │
+│  You type "review for security"                         │
+│  → Claude delegates to security-reviewer AGENT          │
+│  → Agent works in its own context (Sonnet, read-only)   │
+│  → Returns severity report to your main chat            │
 │                                                         │
-│  You type "how many urgent tasks in the database?"       │
-│  → Claude calls MongoDB MCP server                       │
-│  → Gets real data, responds naturally                    │
+│  You type "how many urgent tasks in the database?"      │
+│  → Claude calls MongoDB MCP server                      │
+│  → Gets real data, responds naturally                   │
 │                                                         │
-│  All of this ships as one PLUGIN for your team            │
+│  All of this ships as one PLUGIN for your team          │
 └─────────────────────────────────────────────────────────┘
 ```
 
